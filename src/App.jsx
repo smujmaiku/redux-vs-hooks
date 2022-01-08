@@ -7,16 +7,20 @@ import ByContext from './ByContext';
 export default function App() {
 	return (
 		<div className="App">
-			<h1>By Class</h1>
+			<p>
+				<a href="https://github.com/smujmaiku/redux-vs-hooks">Source Code</a>
+			</p>
+			<hr />
+			<h3>By Class</h3>
 			<ByClass />
 			<hr />
-			<h1>By Hook</h1>
+			<h3>By Hook</h3>
 			<ByHook />
 			<hr />
-			<h1>By Redux</h1>
+			<h3>By Redux</h3>
 			<ByRedux />
 			<hr />
-			<h1>By Hook Context</h1>
+			<h3>By Hook Context</h3>
 			<ByContext />
 		</div>
 	);
