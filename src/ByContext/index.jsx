@@ -5,7 +5,10 @@ import Component from './Component';
 export default function ByContext() {
 	return (
 		<StoreProvider>
-			<Component />
+			<div style={{ display: 'flex', flexDirection: 'row' }}>
+				<Component />
+				<Component />
+			</div>
 		</StoreProvider>
 	);
 }

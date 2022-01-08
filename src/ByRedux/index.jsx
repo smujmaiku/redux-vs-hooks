@@ -6,7 +6,10 @@ import store from './store';
 export default function ByRedux() {
 	return (
 		<ReduxProvider store={store}>
-			<ConnectedComponent />
+			<div style={{ display: 'flex', flexDirection: 'row' }}>
+				<ConnectedComponent />
+				<ConnectedComponent />
+			</div>
 		</ReduxProvider>
 	);
 }
