@@ -1,0 +1,8 @@
+{
+  "short_name": "redux-vs-hooks",
+  "name": "Redux Vs Hooks",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
